@@ -1,0 +1,1 @@
+UPDATE Voyageur SET statut="bronze" WHERE statut="standard" &&  pseudoUser="Runvald";

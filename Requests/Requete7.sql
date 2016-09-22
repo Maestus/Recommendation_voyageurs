@@ -1,0 +1,1 @@
+insert into AvisVoy(idVoyageur,idEtab,nbEtoileAvis,evalPrixAvis,dateAvis) values (5,2,4,5,"2014-12-24");

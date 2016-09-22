@@ -1,0 +1,2 @@
+SELECT a.idEtab, nomEtab, AVG(nbEtoileAvis) AS Moyenne,prioriteConsult FROM AvisVoy a, Etablissement e 
+WHERE a.idEtab=e.idEtab && typeEtab="Restaurant" GROUP BY a.idEtab, nomEtab ORDER BY prioriteConsult DESC, Moyenne;

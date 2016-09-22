@@ -1,0 +1,2 @@
+SELECT DISTINCT nomEtab,typeEtab,prix FROM Etablissement NATURAL JOIN Prix NATURAL JOIN Hotel 
+WHERE typeEtab="Hotel" && villeEtab="Paris" && prix >=10 && prix <= 800 && 	etoileOfficielleHotel >= 2 ORDER BY Prix DESC;

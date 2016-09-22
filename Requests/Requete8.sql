@@ -1,0 +1,1 @@
+SELECT a.idEtab, nomEtab FROM Etablissement e, AvisVoy a, Voyageur v WHERE a.idEtab=e.idEtab && v.pseudoUser="Fowlloch" && dateAvis LIKE "2012%";
